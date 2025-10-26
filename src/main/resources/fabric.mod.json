@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "betterzombie",
+  "version": "1.0.0",
+  "name": "Better Zombie",
+  "description": "Improves zombie (and other hostile mob) behavior: at night all hostile mobs move 2x faster.",
+  "authors": [
+    "Unreal-SamMen"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "entrypoints": {
+    "main": [
+      "com.hafiz.mod.BetterZombieMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
